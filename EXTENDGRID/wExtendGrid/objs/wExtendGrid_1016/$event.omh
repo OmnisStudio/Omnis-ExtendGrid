@@ -1,0 +1,3 @@
+On evExtend
+	Do pRow.cc_Text.$assign(con('Next Row ',pRow.$line))
+	Do pRow.cl_List.$assign(cl_List)

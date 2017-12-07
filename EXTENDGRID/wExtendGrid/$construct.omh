@@ -1,0 +1,9 @@
+;  Enter your initialization code here
+Do cl_List.$define(cc_Col)
+Do cl_List.$add('aa')
+Do cl_List.$add('bb')
+Do cl_List.$add('cc')
+
+Do cl_Main.$define(cc_Text,cl_List)
+Do cl_Main.$add('First Text',cl_List)
+;  Breakpoint
